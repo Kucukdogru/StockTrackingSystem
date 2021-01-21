@@ -1,0 +1,36 @@
+DECLARE @i INT=941
+DECLARE @NAME NVARCHAR(50)
+DECLARE @SURNAME NVARCHAR(50)
+DECLARE @PHONE CHAR(11)
+DECLARE @EMAIL VARCHAR(65)
+DECLARE @JOB NVARCHAR(50)
+
+while @i>0
+BEGIN
+
+SELECT TOP 1 @NAME=NAME FROM Names$ order by NEWID()
+SELECT TRIM(@NAME)
+SELECT TOP 1 @SURNAME=NAME FROM Names$ order by NEWID()
+SELECT TRIM(@SURNAME)
+SELECT @PHONE = dbo.IdentityNumber()
+SET @EMAIL = CONCAT(TRIM(LOWER(TRIM(@SURNAME)+TRIM(@NAME))) , CONVERT(INT,RAND()*100+10), '@gmail.com')
+SELECT @EMAIL
+SELECT TOP 1 @JOB=Job FROM Jobs order by NEWID()
+
+
+INSERT INTO [dbo].[SALES_EMPLOYEES]
+           ([FIRSTNAME]
+           ,[LASTNAME]
+           ,[PHONENUMBER]
+           ,[EMAIL]
+           ,[JOB])
+     VALUES
+           (@NAME
+           ,@SURNAME
+           ,@PHONE
+           ,@EMAIL
+           ,@JOB)
+
+SET @i-=1
+
+END
