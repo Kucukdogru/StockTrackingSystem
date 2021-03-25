@@ -20,7 +20,7 @@ namespace StoreProcedureControls
 
         private void button1_Click(object sender, EventArgs e)
         {
-            SqlConnection con = new SqlConnection(@"Data Source=192.168.1.34;Initial Catalog=STOCKTRACKINGSYSTEM;User ID=sa;Password=Password1");
+            SqlConnection con = new SqlConnection(@"Data Source=**********;Initial Catalog=STOCKTRACKINGSYSTEM;User ID=********;Password=********");
             
 
             SqlCommand cmd = new SqlCommand("[dbo].SALES ", con);
