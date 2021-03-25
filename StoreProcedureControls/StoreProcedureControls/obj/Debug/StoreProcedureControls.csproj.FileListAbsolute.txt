@@ -1,0 +1,10 @@
+C:\Users\kucuk\source\repos\StoreProcedureControls\StoreProcedureControls\bin\Debug\StoreProcedureControls.exe.config
+C:\Users\kucuk\source\repos\StoreProcedureControls\StoreProcedureControls\bin\Debug\StoreProcedureControls.exe
+C:\Users\kucuk\source\repos\StoreProcedureControls\StoreProcedureControls\bin\Debug\StoreProcedureControls.pdb
+C:\Users\kucuk\source\repos\StoreProcedureControls\StoreProcedureControls\obj\Debug\StoreProcedureControls.csprojAssemblyReference.cache
+C:\Users\kucuk\source\repos\StoreProcedureControls\StoreProcedureControls\obj\Debug\StoreProcedureControls.Form1.resources
+C:\Users\kucuk\source\repos\StoreProcedureControls\StoreProcedureControls\obj\Debug\StoreProcedureControls.Properties.Resources.resources
+C:\Users\kucuk\source\repos\StoreProcedureControls\StoreProcedureControls\obj\Debug\StoreProcedureControls.csproj.GenerateResource.cache
+C:\Users\kucuk\source\repos\StoreProcedureControls\StoreProcedureControls\obj\Debug\StoreProcedureControls.csproj.CoreCompileInputs.cache
+C:\Users\kucuk\source\repos\StoreProcedureControls\StoreProcedureControls\obj\Debug\StoreProcedureControls.exe
+C:\Users\kucuk\source\repos\StoreProcedureControls\StoreProcedureControls\obj\Debug\StoreProcedureControls.pdb
